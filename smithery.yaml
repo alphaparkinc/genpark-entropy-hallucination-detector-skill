@@ -1,0 +1,7 @@
+name: genpark-entropy-hallucination-detector-skill
+description: Token entropy and n-gram perplexity analyzer auditing LLM outputs for degenerate repetition loops and vocabulary collapse
+version: 1.0.1
+entrypoint: mcp_server.py
+command: python
+args:
+  - mcp_server.py
